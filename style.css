@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Deloy_Ecommerce_header {
+    display: flex;
+    background-color: rgb(251, 84, 48);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-one {
+    width: 70%;
+    display: flex;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    width: 50%;
+    margin: 20px;
+}
+
+.Search {
+    width: 50%;
+    margin: auto;
+}
+
+.Search input {
+    flex: 1;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-two {
+    width: 30%;
+    display: flex;
+}
+
+.search-icon {
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    background-color: #fff;
+}
+
+.icon-giohang {
+    width: 12.5%;
+    align-items: center;
+}
+
+.giohang {
+    width: 25%;
+    align-items: center;
+}
+
+.dangnhap {
+    width: 25%;
+    align-items: center;
+}
+
+.dangki {
+    width: 25%;
+    align-items: center;
+}
+
+.banner {
+    margin-top: 30px;
+    color: #bfbfc1;
+    text-align: center;
+}
+
+.Deloy_Ecommerce_content {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    align-items: center;
+    background-color: #f5f5f5;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    align-items: center;
+
+}
+
+.content-one {
+    width: 20%;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.danh_muc_san_pham {
+    margin-bottom: 80px;
+    margin-left: 100px;
+    background-color: #fff;
+    height: 270px;
+}
+
+.content-two {
+    width: 14%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.content-three {
+    width: 14%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.content-four {
+    width: 14%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.content-five {
+    width: 14%;
+    text-align: center;
+    background-color: #fff;
+    height: 310px;
+}
+
+.content-six {
+    width: 14%;
+    text-align: center;
+    background-color: #fff;
+    height: 310px;
+}
+
+.Deloy_Ecommerce_footer {
+    display: flex;
+    width: 100%;
+    border-top: 3px solid rgb(251, 84, 48);
+    border-bottom: 3px solid black;
+    background-color: #f5f5f5;
+}
+
+li {
+    list-style: none;
+    color: #747d85;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 576px) {
+    .Deloy_Ecommerce_header {
+        height: 10vh;
+    }
+
+    .box-one {
+        width: 50%;
+        flex-direction: row;
+        background-color: rgb(251, 84, 48);
+    }
+
+    .box-one h1 {
+        font-size: 10px;
+    }
+
+    .Search {
+        width: 30px;
+    }
+
+    .box-two {
+        width: 50%;
+        flex-direction: column;
+        font-size: 5px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .Deloy_Ecommerce_content {
+        flex-direction: column;
+    }
+
+    .content-one {
+        width: auto;
+    }
+
+    .content-two {
+        height: auto;
+        width: auto;
+    }
+
+    .content-three {
+        height: auto;
+        width: auto;
+    }
+
+    .content-four {
+        height: auto;
+        width: auto;
+    }
+
+    .content-six {
+        height: auto;
+        width: auto;
+    }
+
+    .content-six {
+        height: auto;
+        width: auto;
+    }
+
+    .Deloy_Ecommerce_footer {
+        flex-direction: column;
+    }
+    .client {
+        width: 100%;
+    }
+
+    .Deloy_Ecommerce_footer h2 {
+        margin-left: 200px;
+    }
+
+    .Deloy_Ecommerce_footer li {
+        margin-left: 200px;
+    }
+}
