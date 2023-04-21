@@ -214,7 +214,7 @@ h2 {
         width: auto;
     }
 
-    .content-six {
+    .content-five {
         height: auto;
         width: auto;
     }
@@ -227,6 +227,7 @@ h2 {
     .Deloy_Ecommerce_footer {
         flex-direction: column;
     }
+
     .client {
         width: 100%;
     }
